@@ -1,0 +1,154 @@
+body {
+    background-image:  url("qu.jpg");
+}
+h1#Instructions1,h1#Instructions2 {
+    background-color: rgb(169, 76, 182);
+    display: block;
+    border: 2px solid rgb(52, 23, 121);
+    margin: 50px;
+}
+h1#Question1 {
+    display: none;
+}
+#options1 {
+    display: none;
+    background-color: rgb(95, 240, 90);
+}
+h1#Question2 {
+    display: none;
+}
+#options2 {
+    display: none;
+}h1#Question3 {
+    display: none;
+}
+#options3 {
+    display: none;
+}h1#Question4 {
+    display: none;
+}
+#options4 {
+    display: none;
+}h1#Question5 {
+    display: none;
+}
+#options5 {
+    display: none;
+}h1#Question6 {
+    display: none;
+}
+#options6 {
+    display: none;
+}h1#Question7 {
+    display: none;
+}
+#options7 {
+    display: none;
+}h1#Question8 {
+    display: none;
+}
+#options8 {
+    display: none;
+}h1#Question9 {
+    display: none;
+}
+#options9 {
+    display: none;
+}
+h1#Question10 {
+    display: none;
+}
+#options10 {
+    display: none;
+}
+.q1 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+    position: absolute center center;
+
+}
+.q2 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q3 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q4 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q5 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q6 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q7 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q8 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q9 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}
+.q10 {
+    margin: 0;
+    padding: 5px solid rgb(5, 99, 2);
+    background-color: rgb(10, 212, 3);
+    width: 500px;
+    text-align: center;
+    align-self: center center;
+
+}

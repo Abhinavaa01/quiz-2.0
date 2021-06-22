@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <title>ttQuiz</title>
+	<head>
+	<style>
+h1 {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+
+</style>
+	</head>
+ <body>
+
+  <body background=qu.jpg>
+  <label class="container"><input type="text" id="txt">
+  <body onload="startCount(),resultf()">
+
+  <script>
+    var c = 0;
+    var t;
+    var timer_is_on = 0;
+
+    function timedCount() {
+    document.getElementById("txt").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount();
+  }
+}
+    function stopCount() {
+    clearTimeout(t);
+    timer_is_on = 0;
+}
+
+    function resultf() {
+    myvar = setTimeout(resultf, 10000)
+
+	function resultf() {
+	   // body...
+	   var score=0;
+	   if (document.getElementById('correct1').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct2').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct3').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct4').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct5').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct6').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct7').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct8').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct9').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct10').checked)
+	   {
+	     score++;
+		 }
+		 alert("Time's Up!...Your Score is:"+score);
+	}
+	}
+</script>
+  <h1>Q1. 75*7= ?</h1>
+  <label class="container"><input type="radio" name="question1" id="wrong1" >495</label><br>
+  <label class="container"><input type="radio" name="question1" id="correct1" >525</label><br>
+  <label class="container"><input type="radio" name="question1" id="wrong1" >515</label><br>
+  <label class="container"><input type="radio" name="question1" id="wrong1" >505</label><br><br><br>
+
+  <h1>Q2. 24*8= ?</h1>
+  <label class="container"><input type="radio" name="question2" id="wrong1" >144</label><br>
+  <label class="container"><input type="radio" name="question2" id="wrong1" >168</label><br>
+  <label class="container"><input type="radio" name="question2" id="correct2" >192</label><br>
+  <label class="container"><input type="radio" name="question2" id="wrong1" >178</label><br><br><br>
+
+  <h1>Q3. 99008+55402= ?</h1>
+  <label class="container"><input type="radio" name="question3" id="correct3" >154410</label><br>
+  <label class="container"><input type="radio" name="question3" id="wrong1" >144410</label><br>
+  <label class="container"><input type="radio" name="question3" id="wrong1" >145410</label><br>
+  <label class="container"><input type="radio" name="question3" id="wrong1" >145510</label><br><br><br>
+  
+    <h1>Q4. 6!= ?</h1>
+  <label class="container"><input type="radio" name="question4" id="wrong1" >120</label><br>
+  <label class="container"><input type="radio" name="question4" id="correct4" >720</label><br>
+  <label class="container"><input type="radio" name="question4" id="wrong1" >1440</label><br>
+  <label class="container"><input type="radio" name="question4" id="wrong1" >600</label><br><br><br>
+  
+    <h1>Q5. 4907/7= ?</h1>
+  <label class="container"><input type="radio" name="question5" id="wrong1" >71</label><br>
+  <label class="container"><input type="radio" name="question5" id="wrong1" >771</label><br>
+  <label class="container"><input type="radio" name="question5" id="wrong1" >707</label><br>
+  <label class="container"><input type="radio" name="question5" id="correct5" >701</label><br><br><br>
+  
+    <h1>Q6. 5*4+16/4 ?</h1>
+  <label class="container"><input type="radio" name="question6" id="wrong1" >9</label><br>
+  <label class="container"><input type="radio" name="question6" id="correct6" >24</label><br>
+  <label class="container"><input type="radio" name="question6" id="wrong1" >25</label><br>
+  <label class="container"><input type="radio" name="question6" id="wrong1" >40</label><br><br><br>
+  
+    <h1>Q7. 1*6+18/3 ?</h1>
+  <label class="container"><input type="radio" name="question7" id="correct7" >12</label><br>
+  <label class="container"><input type="radio" name="question7" id="wrong1" >8</label><br>
+  <label class="container"><input type="radio" name="question7" id="wrong1" >24</label><br>
+  <label class="container"><input type="radio" name="question7" id="wrong1" >6</label><br><br><br>
+  
+    <h1>Q8. 2*3*8*6*7*9= ?</h1>
+  <label class="container"><input type="radio" name="question8" id="wrong1" >18244</label><br>
+  <label class="container"><input type="radio" name="question8" id="wrong1" >18140</label><br>
+  <label class="container"><input type="radio" name="question8" id="wrong1" >18442</label><br>
+  <label class="container"><input type="radio" name="question8" id="correct8" >18144</label><br><br><br>
+  
+    <h1>Q9. 50*7*3*68*0= ?</h1>
+  <label class="container"><input type="radio" name="question9" id="wrong9" >71400</label><br>
+  <label class="container"><input type="radio" name="question9" id="wrong9" >714000</label><br>
+  <label class="container"><input type="radio" name="question9" id="correct9" >0</label><br>
+  <label class="container"><input type="radio" name="question9" id="wrong9" >7140</label><br><br><br>
+  
+    <h1>Q10. 99999+11101= ?</h1>	
+  <label class="container"><input type="radio" name="question10" id="correct10" >111100</label><br>
+  <label class="container"><input type="radio" name="question10" id="wrong10" >11100</label><br>
+  <label class="container"><input type="radio" name="question10" id="wrong10" >11110</label><br>
+  <label class="container"><input type="radio" name="question10" id="wrong10" >111010</label><br><br><br>
+  
+  <label class="container"><input type="submit" name="Submit" value="Submit Quiz" onclick="result()">
+  
+  <script type="text/javascript">
+    
+	function result() {
+	   // body...
+	   var score=0;
+	   if (document.getElementById('correct1').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct2').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct3').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct4').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct5').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct6').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct7').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct8').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct9').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct10').checked)
+	   {
+	     score++;
+		 }
+		 alert("Time's Up!...Your Score is:"+score);
+	}
+</script>
+  </body>
+  <input type="button" value="Restart Quiz" onClick="document.location.reload(true)">
+</html>
+
+

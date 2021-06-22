@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try</title>
+    <style>
+ p.one{
+     display: none;
+ }
+
+    </style>
+</head>
+<body>
+    <p class="one">
+    this is p1
+    </p>
+    <p id="two"class="two">this is p2</p>
+    <button onclick="hide()">Hide p2</button>
+    <script>
+       function hide() {
+         document.getElementById("two").style.visibility="hidden";
+       }
+    </script>
+</body>
+</html>

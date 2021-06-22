@@ -1,0 +1,15 @@
+body {
+    background-image:  url("qu.jpg");
+}
+h1 {
+    background-color: rgb(169, 76, 182);
+    display: block;
+}
+h1 {
+border: 2px solid rgb(52, 23, 121);
+margin: 50px;
+}
+.container{
+    background-color: rgb(64, 224, 190); 
+    border: .05px solid rgb(0, 0, 0);
+}

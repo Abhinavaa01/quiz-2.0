@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QUIZ 2.0</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1 id="Instructions1" >Want to check your Maths?<br><br>Let's Play a quick Quiz!</h1>
+    <h1 id="Instructions2">Instructions:-</h1>
+    <h3 id="Instructions3" >1. Quiz consists of 10 questions each of equal weightage.<br>
+       2. Each question consists of +1 mark if answered correct, and no deduction if not answered.<br>
+       3. Maximum marks are 10.<br>
+       4. Total time given to answer is 3 minutes . If not answered under time the quiz will be auto submitted and no mark will be givenfor unanswered questions.<br>
+       5. Do not Refresh the page during quiz.</p>
+       <h2 id="Instructions4"  Text =	#FF0000>BEST OF LUCK!</h3>
+    <button id="Instructions5"  onclick="Startquiz()">
+        <font size="8"><b>START!</b></font></button>
+
+
+
+        <div class="q1"><h1 id="Question1"><font size = "8">Q1. 75*7= ?<br><input type="text" id="txt1"></font></h1>
+        <p id ="options1"><label class="container"><input type="radio" name="question1" id="wrong1" >495</label><br>
+        <label class="container"><input type="radio" name="question1" id="correct1" >525</label><br>
+        <label class="container"><input type="radio" name="question1" id="wrong1" >515</label><br>
+        <label class="container"><input type="radio" name="question1" id="wrong1" >505</label><br><br>
+        <button onclick="Ques2()">Next</button></p></div>
+    </p>
+
+
+
+         <div class="q2"><h1 id="Question2"><font size = "8">Q2. 24*8=?<br><input type="text" id="txt2"></font></h1>
+         <p id="options2"><label class="container"><input type="radio" name="question2" id="wrong1" >144</label><br>
+         <label class="container"><input type="radio" name="question2" id="wrong1" >168</label><br>
+         <label class="container"><input type="radio" name="question2" id="correct2" >192</label><br>
+         <label class="container"><input type="radio" name="question2" id="wrong1" >178</label><br><br>
+         <button onclick="Ques3()">Next</button></p></div>
+
+
+
+         <div class="q3"><h1 id="Question3"><font size = "8">Q3. 99008+55402=?<br><input type="text" id="txt3"></font></h1>
+         <p id="options3"><label class="container"><input type="radio" name="question3" id="correct3" >154410</label><br>
+         <label class="container"><input type="radio" name="question3" id="wrong1" >144410</label><br>
+         <label class="container"><input type="radio" name="question3" id="wrong1" >145410</label><br>
+         <label class="container"><input type="radio" name="question3" id="wrong1" >145510</label><br><br>
+         <button onclick="Ques4()">Next</button></p></div>
+
+
+         <div class="q4"><h1 id="Question4"><font size = "8">Q4. 6!=?<br><input type="text" id="txt4"></font></h1>
+         <p id="options4"><label class="container"><input type="radio" name="question4" id="wrong1" >120</label><br>
+         <label class="container"><input type="radio" name="question4" id="correct4" >720</label><br>
+         <label class="container"><input type="radio" name="question4" id="wrong1" >1440</label><br>
+         <label class="container"><input type="radio" name="question4" id="wrong1" >600</label><br><br>
+         <button onclick="Ques5()">Next</button></p></div>
+
+
+
+         <div class="q5"><h1 id="Question5"><font size = "8">Q5. 4907/7=?<br><input type="text" id="txt5"></font></h1>
+         <p id="options5"><label class="container"><input type="radio" name="question5" id="wrong1" >71</label><br>
+         <label class="container"><input type="radio" name="question5" id="wrong1" >771</label><br>
+         <label class="container"><input type="radio" name="question5" id="wrong1" >707</label><br>
+         <label class="container"><input type="radio" name="question5" id="correct5" >701</label><br><br>
+         <button onclick="Ques6()">Next</button></p></div>
+
+
+
+         <div class="q6"><h1 id="Question6"><font size = "8">Q6. 5*4+16/4?<br><input type="text" id="txt6"></font></h1>
+         <p id="options6"><label class="container"><input type="radio" name="question6" id="wrong1" >9</label><br>
+         <label class="container"><input type="radio" name="question6" id="correct6" >24</label><br>
+         <label class="container"><input type="radio" name="question6" id="wrong1" >25</label><br>
+         <label class="container"><input type="radio" name="question6" id="wrong1" >40</label><br><br>
+         <button onclick="Ques7()">Next</button></p></div>
+
+
+
+         <div class="q7"><h1 id="Question7"><font size = "8">Q7. 1*6+18/3?<br><input type="text" id="txt7"></font></h1>
+         <p id="options7"><label class="container"><input type="radio" name="question7" id="correct7" >12</label><br>
+         <label class="container"><input type="radio" name="question7" id="wrong1" >8</label><br>
+         <label class="container"><input type="radio" name="question7" id="wrong1" >24</label><br>
+         <label class="container"><input type="radio" name="question7" id="wrong1" >6</label><br><br>
+         <button onclick="Ques8()">Next</button></p></div>
+
+
+
+         <div class="q8"><h1 id="Question8"><font size = "8">Q8. 2*3*8*6*7*9=?<br><input type="text" id="txt8"></font></h1>
+         <p id="options8"><label class="container"><input type="radio" name="question8" id="wrong1" >18244</label><br>
+         <label class="container"><input type="radio" name="question8" id="wrong1" >18140</label><br>
+         <label class="container"><input type="radio" name="question8" id="wrong1" >18442</label><br>
+         <label class="container"><input type="radio" name="question8" id="correct8" >18144</label><br><br>
+         <button onclick="Ques9()">Next</button></p></div>
+
+
+
+
+         <div class="q9"><h1 id="Question9"><font size = "8">Q9. 50*7*3*68*0=?<br><input type="text" id="txt9"></font></h1>
+         <p id="options9"><label class="container"><input type="radio" name="question9" id="wrong9" >71400</label><br>
+         <label class="container"><input type="radio" name="question9" id="wrong9" >714000</label><br>
+         <label class="container"><input type="radio" name="question9" id="correct9" >0</label><br>
+         <label class="container"><input type="radio" name="question9" id="wrong9" >7140</label><br><br>
+         <button onclick="Ques10()">Next</button></p></div>
+         
+
+
+
+         <div class="q9"><h1 id="Question10"><font size = "8">Q10. 99999+11101=?<br><input type="text" id="txt10"></font></h1>	
+         <p id="options10"><label class="container"><input type="radio" name="question10" id="correct10" >111100</label><br>
+         <label class="container"><input type="radio" name="question10" id="wrong10" >11100</label><br>
+         <label class="container"><input type="radio" name="question10" id="wrong10" >11110</label><br>
+         <label class="container"><input type="radio" name="question10" id="wrong10" >111010</label><br><br>
+         <button onclick="result()">Submit Quiz</button></p></div>
+
+      <script>
+
+    var c = 0;
+    var t;
+    var timer_is_on = 0;
+
+          function Startquiz() {
+            start1();
+            start2();
+            start3();
+            start4();
+            start5();
+            start6();
+            start7();
+            timer1();
+            startCount1();
+          } 
+          
+          function start1() {
+            document.getElementById("Instructions1").style.display = "none";
+
+}
+function start2() {
+            document.getElementById("Instructions2").style.display = "none";
+
+}
+function start3() {
+            document.getElementById("Instructions3").style.display = "none";
+
+}
+function start4() {
+            document.getElementById("Instructions4").style.display = "none";
+
+}
+function start5() {
+            document.getElementById("Instructions5").style.display = "none";
+
+}
+function start6() {
+            document.getElementById("Question1").style.display = "block";
+
+}
+function start7() {
+            document.getElementById("options1").style.display = "block";
+
+}
+function timer1() {
+    myvar1 = setTimeout(Ques2, 10000)
+}
+
+    function timedCount1() {
+    document.getElementById("txt1").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount1() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount1();
+  }
+    }
+function Ques2() {
+    hideques1();
+    hideoptions1();
+    showquestion2();
+    showoptions2();
+    timer2();
+    stoptimer1();
+    startCount2();
+}
+function hideques1() {
+    document.getElementById("Question1").style.display = "none";
+
+}
+function hideoptions1() {
+    document.getElementById("options1").style.display = "none";
+
+}
+function showquestion2() {
+    document.getElementById("Question2").style.display = "block";
+
+}
+function showoptions2() {
+    document.getElementById("options2").style.display = "block";
+
+}
+function timer2() {
+    myvar = setTimeout(Ques3, 10000)
+}
+
+    function timedCount2() {
+    document.getElementById("txt2").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount2, 1000);
+}
+
+    function startCount2() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount2();
+  }
+    }
+function stoptimer1() {
+    clearTimeout(myVar1);
+}
+function Ques3() {
+    hideques2();
+    hideoptions2();
+    showquestion3();
+    showoptions3();
+    timer3();
+    startCount3();
+}
+function hideques2() {
+    document.getElementById("Question2").style.display = "none";
+
+}
+function hideoptions2() {
+    document.getElementById("options2").style.display = "none";
+
+}
+function showquestion3() {
+    document.getElementById("Question3").style.display = "block";
+
+}
+function showoptions3() {
+    document.getElementById("options3").style.display = "block";
+
+}function timer3() {
+    myvar = setTimeout(Ques4, 10000)
+}
+
+
+function timedCount() {
+    document.getElementById("txt3").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount3() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount();
+  }
+    }
+function Ques4() {
+    hideques3();
+    hideoptions3();
+    showquestion4();
+    showoptions4();
+    timer4();
+    startCount4();
+}
+function hideques3() {
+    document.getElementById("Question3").style.display = "none";
+
+}
+function hideoptions3() {
+    document.getElementById("options3").style.display = "none";
+
+}
+function showquestion4() {
+    document.getElementById("Question4").style.display = "block";
+
+}
+function showoptions4() {
+    document.getElementById("options4").style.display = "block";
+
+}function timer4() {
+    myvar = setTimeout(Ques5, 10000)
+}
+
+    function timedCount() {
+    document.getElementById("txt4").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount4() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount();
+  }
+    }
+function Ques5() {
+    hideques4();
+    hideoptions4();
+    showquestion5();
+    showoptions5();
+    timer5();
+    startCount5();
+}
+function hideques4() {
+    document.getElementById("Question4").style.display = "none";
+
+}
+function hideoptions4() {
+    document.getElementById("options4").style.display = "none";
+
+}
+function showquestion5() {
+    document.getElementById("Question5").style.display = "block";
+
+}
+function showoptions5() {
+    document.getElementById("options5").style.display = "block";
+
+}
+function timer5() {
+    myvar = setTimeout(Ques6, 10000)
+}
+
+    function timedCount() {
+    document.getElementById("txt5").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount5() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount();
+  }
+    }
+function Ques6() {
+    hideques5();
+    hideoptions5();
+    showquestion6();
+    showoptions6();
+    timer6();
+    startCount6();
+}
+function hideques5() {
+    document.getElementById("Question5").style.display = "none";
+
+}
+function hideoptions5() {
+    document.getElementById("options5").style.display = "none";
+
+}
+function showquestion6() {
+    document.getElementById("Question6").style.display = "block";
+
+}
+function showoptions6() {
+    document.getElementById("options6").style.display = "block";
+
+}
+function timer6() {
+    myvar = setTimeout(Ques7, 10000)
+}
+
+function timedCount() {
+document.getElementById("txt6").value = c;
+c = c + 1;
+t = setTimeout(timedCount, 1000);
+}
+
+function startCount6() {
+if (!timer_is_on) {
+timer_is_on = 1;
+timedCount();
+}
+}
+function Ques7() {
+    hideques6();
+    hideoptions6();
+    showquestion7();
+    showoptions7();
+    timer7();
+    startCount7();
+}
+function hideques6() {
+    document.getElementById("Question6").style.display = "none";
+
+}
+function hideoptions6() {
+    document.getElementById("options6").style.display = "none";
+
+}
+function showquestion7() {
+    document.getElementById("Question7").style.display = "block";
+
+}
+function showoptions7() {
+    document.getElementById("options7").style.display = "block";
+
+}
+function timer7() {
+    myvar = setTimeout(Ques8, 10000)
+}
+
+function timedCount() {
+document.getElementById("txt7").value = c;
+c = c + 1;
+t = setTimeout(timedCount, 1000);
+}
+
+function startCount7() {
+if (!timer_is_on) {
+timer_is_on = 1;
+timedCount();
+}
+}
+function Ques8() {
+    hideques7();
+    hideoptions7();
+    showquestion8();
+    showoptions8();
+    timer8();
+    startCount8();
+}
+function hideques7() {
+    document.getElementById("Question7").style.display = "none";
+
+}
+function hideoptions7() {
+    document.getElementById("options7").style.display = "none";
+
+}
+function showquestion8() {
+    document.getElementById("Question8").style.display = "block";
+
+}
+function showoptions8() {
+    document.getElementById("options8").style.display = "block";
+
+}
+function timer8() {
+    myvar = setTimeout(Ques9, 10000)
+}
+
+function timedCount() {
+document.getElementById("txt8").value = c;
+c = c + 1;
+t = setTimeout(timedCount, 1000);
+}
+
+function startCount8() {
+if (!timer_is_on) {
+timer_is_on = 1;
+timedCount();
+}
+}
+function Ques9() {
+    hideques8();
+    hideoptions8();
+    showquestion9();
+    showoptions9();
+    timer9();
+    startCount9();
+}
+function hideques8() {
+    document.getElementById("Question8").style.display = "none";
+
+}
+function hideoptions8() {
+    document.getElementById("options8").style.display = "none";
+
+}
+function showquestion9() {
+    document.getElementById("Question9").style.display = "block";
+
+}
+function showoptions9() {
+    document.getElementById("options9").style.display = "block";
+
+}
+function timer9() {
+    myvar = setTimeout(Ques10, 10000)
+}
+
+function timedCount() {
+document.getElementById("txt9").value = c;
+c = c + 1;
+t = setTimeout(timedCount, 1000);
+}
+
+function startCount9() {
+if (!timer_is_on) {
+timer_is_on = 1;
+timedCount();
+}
+}
+function Ques10() {
+    hideques9();
+    hideoptions9();
+    showquestion10();
+    showoptions10();
+    timer10();
+    startCount10();
+}
+function hideques9() {
+    document.getElementById("Question9").style.display = "none";
+
+}
+function hideoptions9() {
+    document.getElementById("options9").style.display = "none";
+
+}
+function showquestion10() {
+    document.getElementById("Question10").style.display = "block";
+
+}
+function showoptions10() {
+    document.getElementById("options10").style.display = "block";
+
+}
+
+
+function timedCount() {
+    document.getElementById("txt10").value = c;
+    c = c + 1;
+    t = setTimeout(timedCount, 1000);
+}
+
+    function startCount10() {
+    if (!timer_is_on) {
+    timer_is_on = 1;
+    timedCount();
+  }
+    }
+function timer10() {
+    myvar = setTimeout(result, 10000)
+}
+function result() {
+	   // body...
+	   var score=0;
+	   if (document.getElementById('correct1').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct2').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct3').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct4').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct5').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct6').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct7').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct8').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct9').checked)
+	   {
+	     score++;
+		 }
+		if (document.getElementById('correct10').checked)
+	   {
+	     score++;
+		 }
+		 alert("Time's Up!...Your Score is:"+score);
+	}
+
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
